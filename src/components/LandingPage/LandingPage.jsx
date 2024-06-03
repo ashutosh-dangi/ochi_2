@@ -6,6 +6,7 @@ import LandingOchiFlag from './ochi_logo.jpg'
 
 const LandingPage = () => {
     
+    
   return (
     <div  data-scroll data-scroll-section data-scroll-speed ="-0.4" className='h-screen w-full bg-[#e0e0e0] text-black pt-1'>
         
@@ -22,9 +23,11 @@ const LandingPage = () => {
             {["For public and private companies","From the first pitch to IPO"].map((item,index)=>(
             <p className='font-normal tracking-wide'>{item}</p>
             ))}
-            <div className='ButtonArea'>
-                <button className='mt-2 font-normal font-md px-4 py-1 rounded-full border-[2px] border-zinc-500 '>START THE PROJECT</button>
-                <button className=' mt- 2 font-normal font-md mx-2 px-1 py-1 rounded-full border-[2px] border-zinc-500 '><ArrowOutwardIcon/></button>
+            <div className='ButtonArea '>
+               <div className='mt-2  flex gap-3'>
+                    <a  href = '' className='font-normal font-md px-4 py-1 rounded-full border-[2px] border-zinc-500 '>START THE PROJECT</a>
+                    <a href = '' className='font-normal  mt-[1px] w-8 h-8 rounded-full border-[2px] border-zinc-500 flex items-center justify-center '><ArrowOutwardIcon/></a>
+               </div>
             </div>
         </div>
 

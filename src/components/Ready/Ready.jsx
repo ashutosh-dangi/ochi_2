@@ -34,13 +34,13 @@ const Ready = () => {
             <h1 className=' uppercase text-[12vw] font-bold tracking-tighter  leading-none'>THE PROJECT ?</h1>
         </div>
         <div className='ml-6 mt-5 w-[16vw] bg-zinc-900 text-white py-4 px-7 rounded-full flex items-center justify-between'>
-                <h1>START THE PROJECT</h1>
-                <div className=' ml-5 w-2 h-2 rounded-full bg-red-200'></div>
+                <a href=""> <button>START THE PROJECT</button> </a>
+                <a href=""> <button className=' ml-5 w-2 h-2 rounded-full bg-red-200'></button> </a>
         </div>
         <div className='mr-6 text-lg translate-x-6 translate-y-2'>OR</div>
         <div className='ml-6 mt-5 w-[16vw]  text-black py-3 px-7 rounded-full border-[1.6px]  border-black flex items-center justify-between'>
-                <h1>HELLO@OCHI.DESIGN</h1>
-                <div className=' ml-5 w-2 h-2 rounded-full bg-black'></div>
+                <a href=""> <button>HELLO@OCHI.DESIGN</button> </a>
+                <a href=""> <button className=' ml-5 w-2 h-2 rounded-full bg-black'></button> </a>
         </div>
         <div className=' absolute  flex  gap-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'>
                 <div className='w-[15vw] h-[15vw] rounded-full flex items-center justify-center  bg-zinc-100'>
