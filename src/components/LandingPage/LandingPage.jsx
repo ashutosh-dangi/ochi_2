@@ -1,6 +1,7 @@
 import React from 'react'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { motion } from 'framer-motion';
+import LandingOchiFlag from './ochi_logo.jpg'
 
 
 const LandingPage = () => {
@@ -12,7 +13,7 @@ const LandingPage = () => {
             {["WE CREATE","EYE-OPENING" , "PRESENTATIONS"].map((item,index)=>( 
             <div key = {index} className= {`Masker ${index===1 && " flex items-center"}`}>
                 {index==1 && <motion.div  initial={{width: 0}} animate={{width: "8.4vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className='h-[80px] w-32 bg-[#9d4040] mt-[18px] rounded-lg mb-1 mr-3 overflow-hidden '>
-                   <img src="src\components\LandingPage\ochi_logo.jpg" className='bg-cover h-full w-full'  /> </motion.div>}
+                   <img src= {LandingOchiFlag} className='bg-cover h-full w-full'  /> </motion.div>}
                 <h1 className='font-["Founders Grotesk"] uppercase text-[7.4vw] font-bold tracking-tighter leading-[5.8vw]'>{item}</h1>
             </div>))}
         </div>

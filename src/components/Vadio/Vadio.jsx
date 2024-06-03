@@ -1,10 +1,11 @@
 import React from 'react'
+import Viideo from './my_video.mp4' 
 
 
 const Vadio = () => {
   return (
     <div >
-        <video src="/videos/my_video.mp4" autoPlay loop muted ></video>
+        <video src={Viideo} autoPlay loop muted ></video>
     </div>
   )
 }
