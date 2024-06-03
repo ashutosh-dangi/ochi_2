@@ -11,7 +11,7 @@ const LandingPage = () => {
         <div className='Textarea  mt-[11vw] px-20' >
             {["WE CREATE","EYE-OPENING" , "PRESENTATIONS"].map((item,index)=>( 
             <div key = {index} className= {`Masker ${index===1 && " flex items-center"}`}>
-                {index==1 && <motion.div  initial={{width: 0}} animate={{width: "8.4vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className='h-[80px] w-32 bg-[#a6a3a3] mt-[18px] rounded-lg mb-1 mr-3 overflow-hidden '>
+                {index==1 && <motion.div  initial={{width: 0}} animate={{width: "8.4vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className='h-[80px] w-32 bg-[#9d4040] mt-[18px] rounded-lg mb-1 mr-3 overflow-hidden '>
                    <img src="src\components\LandingPage\ochi_logo.jpg" className='bg-cover h-full w-full'  /> </motion.div>}
                 <h1 className='font-["Founders Grotesk"] uppercase text-[7.4vw] font-bold tracking-tighter leading-[5.8vw]'>{item}</h1>
             </div>))}
