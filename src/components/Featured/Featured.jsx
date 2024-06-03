@@ -40,7 +40,7 @@ const Featured = () => {
                     <h1 className='text-black font-normal tracking-wide font-["Neue_Montreal"] text-s'>FYDE</h1>
                 </div>
                 <div onMouseEnter={handleCard1Entered} onMouseLeave={handleCard1Exited} className='Card mt-4 h-[93.3%] w-full bg-slate-500 rounded-xl overflow-hidden'>
-                    <img className='h-full w-full bg-cover' src="src\components\Featured\Fyde_Illustration_Crypto_2-663x551.png"/>
+                    <img className='h-full w-full bg-cover' src="./components/Featured/Fyde_Illustration_Crypto_2-663x551.png"/>
                 </div>
                 
              </div>
@@ -57,7 +57,7 @@ const Featured = () => {
                      <h1 className='text-black font-normal tracking-wider font-["Neue_Montreal"] text-s'>VISE</h1>
                 </div>
                 <div onMouseEnter={handleCard2Entered} onMouseLeave={handleCard2Exited}  className='Card mt-4 h-[93.3%] w-full bg-slate-500 rounded-xl overflow-hidden'>
-                    <img className='h-full w-full bg-cover' src="src\components\Featured\Vise_front2-663x551.jpg"/>
+                    <img className='h-full w-full bg-cover' src="./components/Featured/Vise_front2-663x551.jpg"/>
                 </div>
             </div>
             

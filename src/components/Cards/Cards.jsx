@@ -24,7 +24,7 @@ const Cards = () => {
           </button>
         </div>
         <div className="Card3 relative h-full w-full lg:w-[47%] bg-[#212121] rounded-xl flex items-center justify-center">
-          <img className="h-20 lg:h-[9vw] w-20 lg:w-[10vw]" src="src/components/Cards/card_3_logo.png" alt="Card 3 Logo" />
+          <img className="h-20 lg:h-[9vw] w-20 lg:w-[10vw]" src="./components/Cards/card_3_logo.png" alt="Card 3 Logo" />
           <button className="absolute bottom-4 lg:bottom-6 left-4 lg:left-6 text-zinc-200 scale-90 lg:scale-100 font-['Neue_Montreal'] font-light border border-zinc-200 px-2 lg:px-3 py-1 rounded-full">
             BUSINESS BOOTCAMP ALUMNI
           </button>

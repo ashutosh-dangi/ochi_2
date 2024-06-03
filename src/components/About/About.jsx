@@ -1,6 +1,8 @@
 import React from 'react'
+import ochiPersonImage from './ochi-person.jpg';
 
 const About = () => {
+ 
   return (
     <div>
         <div data-scroll data-scroll-speed = "-0.2"className=' z-10 pt-24 pb-14  bg-[#CDEA68] rounded-tr-3xl  rounded-3xl text-black'>
@@ -15,7 +17,7 @@ const About = () => {
                 </div>
             </div>
             <div className=' mr-11 h-[33vw] w-[47vw] bg-[#ADC45B] rounded-2xl overflow-hidden'>
-                <img src="src\components\About\ochi-person.jpg" className='h-full w-full bg-cover' />
+                <img src={ochiPersonImage}  className='h-full w-full bg-cover' />
             </div>
             </div>
         </div>
